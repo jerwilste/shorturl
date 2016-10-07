@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+
+        <!-- Place favicon.ico in the root directory -->
+
+     <!--   <link rel="stylesheet" href="css/normalize.css">-->
+    <!--    <link rel="stylesheet" href="css/main.css">-->
+<!--        <script src="js/vendor/modernizr-2.8.3.min.js"></script>-->
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <h2>ShortURL-API</h2>
+	<ul><b>User Stories</b>
+		<li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response</li>
+		<li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+		<li>When I visit that shortened URL, it will redirect me to my original link.</li>
+
+	</ul>
+	<br>
+	<h4>Example Usage:</h4>
+	<ul>
+		<li>https://shorturl-jerwilste.herokuapp.com/shorten/google.com</li>
+	</ul>
+        <br>
+        <h4>Example Output:</h4>
+        <ul>
+                <li>{"original_url":"http://www.google.com","new_url":"https://shorturl-jerwilste.herokuapp.com/0"}</li>
+        </ul>
+
+    </body>
+</html>
